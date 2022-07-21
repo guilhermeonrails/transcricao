@@ -1,0 +1,19 @@
+* {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+button {
+    margin-bottom: 1em;
+    width: 5em;
+    font-size: 0.8em;
+}
+
+textarea {
+    font-size: 12px;
+    width: 100Vh;
+    height: 50em;
+}

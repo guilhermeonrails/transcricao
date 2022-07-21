@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style/transcricao.css') }}">
+</head>
+
+<body>
+    <h3>Veja a Transcrição</h3>
+    <div class="container">
+        <button> <a href="/">Voltar</a></button>
+    </div>
+    <textarea name="transcricao" id="" cols="80" rows="30">{{data}}</textarea>
+
+</body>
+
+</html>

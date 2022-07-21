@@ -1,0 +1,15 @@
+* {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form, input{
+    margin: 1em;
+}
+
+.link {
+    width: 40em;
+    height: 3em;
+    font-size: 20px;
+}
